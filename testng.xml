@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test  name="Testlogin">
     <classes>
-      <class name="recognition.Qt6"/>
-      <class name="recognition.Qt4"/>
-      <class name="recognition.Qt3"/>
-      <class name="recognition.Qt2"/>
-      <class name="recognition.Qt1"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+       <class name="recognition.Qt6"/>
+     </classes>
+   </test>
+   <test name="Testactivity">
+      <classes>
+         <class name="recognition.Qt4"/>
+       </classes>
+   </test>
+   <test name="Testsendkudos">
+      <classes>
+         <class name="recognition.Qt3"/>
+      </classes>
+   </test>
+   <test name="Testkudosearch">
+     <classes>
+         <class name="recognition.Qt2"/>
+     </classes>
+   </test>
+       
+   <test name="Testothers">
+       <classes>
+          <class name="recognition.Qt1"/>
+       </classes>
+   </test>
+ </suite> 
